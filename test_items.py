@@ -5,7 +5,7 @@ def test_check_busket_button(browser):
     
     browser.implicitly_wait(10)
     
-    button = browser.find_element_by_css_selector("button.btn-add-to-basked")
+    button = browser.find_element_by_css_selector("button.btn-add-to-basket")
     
     assert button, "Корзина не найдена "
    
